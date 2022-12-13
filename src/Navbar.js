@@ -1,6 +1,8 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
+  const state = useSelector((state) => state.amount);
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-light">
