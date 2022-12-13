@@ -28,7 +28,7 @@ const Shop = () => {
       <button onClick={withdraw} className="btn btn-primary mx-2">
         Add
       </button>
-      Add to car
+      Add to cart
       <button onClick={deposit} className="btn btn-primary mx-2">
         Remove
       </button>
