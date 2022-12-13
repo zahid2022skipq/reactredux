@@ -36,7 +36,7 @@ const Navbar = () => {
             </ul>
 
             <button className="btn btn-outline-success" type="submit">
-              Balance: 15$
+              Balance: {state}
             </button>
           </div>
         </div>
