@@ -1,1 +1,3 @@
-export * as actipnCreator from "./action-creators/index";
+import * as actionCreators from "./action-creators/index";
+
+export { actionCreators };
