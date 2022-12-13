@@ -1,5 +1,3 @@
-import { act } from "react-dom/test-utils";
-
 export default reducer = (state = 0, action) => {
   switch (action.type) {
     case "deposit":
