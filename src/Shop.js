@@ -25,11 +25,11 @@ const Shop = () => {
   return (
     <div>
       <h2>Addidas Shoe 500 RS</h2>
-      <button onClick={deposit} className="btn btn-primary mx-2">
+      <button onClick={withdraw} className="btn btn-primary mx-2">
         Add
       </button>
       Add to cart
-      <button onClick={withdraw} className="btn btn-primary mx-2">
+      <button onClick={deposit} className="btn btn-primary mx-2">
         Remove
       </button>
     </div>
